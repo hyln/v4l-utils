@@ -160,6 +160,12 @@
 /* JPEG compressed formats - next is	0x4002 */
 #define MEDIA_BUS_FMT_JPEG_1X8			0x4001
 
+/* Prophesee Event-based formats - next is	0x5304 */
+#define MEDIA_BUS_FMT_PSEE_EVT2			0x5300
+#define MEDIA_BUS_FMT_PSEE_EVT21ME		0x5301
+#define MEDIA_BUS_FMT_PSEE_EVT21		0x5303
+#define MEDIA_BUS_FMT_PSEE_EVT3			0x5302
+
 /* Vendor specific formats - next is	0x5002 */
 
 /* S5C73M3 sensor specific interleaved UYVY and JPEG */
