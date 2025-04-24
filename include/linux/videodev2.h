@@ -785,6 +785,12 @@ struct v4l2_pix_format {
 #define V4L2_PIX_FMT_AJPG     v4l2_fourcc('A', 'J', 'P', 'G') /* Aspeed JPEG */
 #define V4L2_PIX_FMT_HEXTILE  v4l2_fourcc('H', 'X', 'T', 'L') /* Hextile compressed */
 
+#define V4L2_PIX_FMT_PSEE_EVT2	v4l2_fourcc('P', 'S', 'E', 'E') /* Prophesee Evt 2.0 data format */
+#define V4L2_PIX_FMT_PSEE_EVT21ME	v4l2_fourcc('P', 'S', 'E', '1') /* Prophesee Evt 2.1 Legacy data format */
+#define V4L2_PIX_FMT_PSEE_EVT21	v4l2_fourcc('P', 'S', 'E', '2') /* Prophesee Evt 2.1 data format */
+#define V4L2_PIX_FMT_PSEE_EVT3	v4l2_fourcc('P', 'S', 'E', '3') /* Prophesee Evt 3.0 data format */
+
+
 /* 10bit raw packed, 32 bytes for every 25 pixels, last LSB 6 bits unused */
 #define V4L2_PIX_FMT_IPU3_SBGGR10	v4l2_fourcc('i', 'p', '3', 'b') /* IPU3 packed 10-bit BGGR bayer */
 #define V4L2_PIX_FMT_IPU3_SGBRG10	v4l2_fourcc('i', 'p', '3', 'g') /* IPU3 packed 10-bit GBRG bayer */
